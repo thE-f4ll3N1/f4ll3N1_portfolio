@@ -1,5 +1,5 @@
 # Use an official Nginx runtime as a parent image
-FROM nginx
+FROM nginx:latest
 
 # Set the working directory to /usr/share/nginx/html
 WORKDIR /usr/share/nginx/html
@@ -12,3 +12,6 @@ EXPOSE 80
 
 # docker build -t my-nginx-image .
 # docker run -p 8080:80 my-nginx-image
+
+# Start the Nginx server
+CMD ["nginx", "-g", "daemon off;"]
