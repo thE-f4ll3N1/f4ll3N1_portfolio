@@ -333,14 +333,14 @@
    }
    @font-face {
      font-family: 'Comic gecko';
-     src: url('https://uploads-ssl.webflow.com/63ebb850e80a6fda2b328d4e/63ebbf56e863682f21328a13_Comic%20Gecko%20.ttf') format('truetype');
+     src: url('./fonts/Comic-Gecko.ttf') format('truetype');
      font-weight: 400;
      font-style: normal;
      font-display: swap;
    }
    @font-face {
      font-family: 'Calibri';
-     src: url('https://uploads-ssl.webflow.com/63ebb850e80a6fda2b328d4e/63ebbf566097159b2ab3764e_calibri.ttf') format('truetype');
+     src: url('./fonts/Calibri.ttf') format('truetype');
      font-weight: 400;
      font-style: normal;
      font-display: swap;
